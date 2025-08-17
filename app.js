@@ -40,7 +40,6 @@ function sortearAmigo() {
     }  else{
         nomesSorteados.push(nomeSorteado);
         exibirTextoNaTela('ul', `O(A) participante ${nomeSorteado} foi sorteado(a)!`);
-        console.log(nomeSorteado);
         return nomeEmbaralhado;
     } 
 
