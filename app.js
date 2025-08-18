@@ -17,18 +17,18 @@ function exibirMensagemInicial(){
 exibirMensagemInicial();
 
 function adicionarAmigo() {
-    if (document.querySelector('input').value == '')  {
-        alert('Digite um nome válido!');
-    } else if (document.querySelector('input').value == nomesSorteio) {
-        exibirTextoNaTela('ul', `${document.querySelector('input').value} já está na lista!`);
-    }   else {
-        let nome = document.querySelector('input').value;
-        nomesSorteio.push(nome);
-        document.querySelector('input').value = '';
-        exibirTextoNaTela('ul', nomesSorteio);
-      }
-
-    return
+        if (document.querySelector('input').value == '')  {
+            alert('Digite um nome válido!');
+        } else if (nomesSorteio.includes(document.querySelector('input').value)) {
+            exibirTextoNaTela('ul', `${document.querySelector('input').value} já está na lista!`);
+        }   else {
+            let nome = document.querySelector('input').value;
+            nomesSorteio.push(nome);
+            document.querySelector('input').value = '';
+            exibirTextoNaTela('ul', nomesSorteio);
+          }
+      
+        return
 }
 
 function sortearAmigo() {
