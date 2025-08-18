@@ -17,3 +17,11 @@ Você não consegue enviar espaços em branco:
 
 <h4>Nomes repetidos</h4>
 Você não consegue adicionar nomes já existentes:
+<img width="765" height="236" alt="image" src="https://github.com/user-attachments/assets/f51934e2-4fc3-472c-9600-3c78fb33d18b" />
+
+<h4>Nome sorteado</h4>
+<img width="765" height="236" alt="image" src="https://github.com/user-attachments/assets/3d67122c-f5e2-4a77-bccd-73bae400458e" />
+
+<h4>Fim do sorteio</h4>
+Quando todos os nomes já foram sorteados, o site te avisa:
+<img width="765" height="236" alt="image" src="https://github.com/user-attachments/assets/4b16afb0-fa9f-44bd-97f3-e7cb333d7abf" />
