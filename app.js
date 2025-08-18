@@ -36,6 +36,7 @@ function sortearAmigo() {
     let nomeSorteado = nomesSorteio[nomeEmbaralhado];
     
     if (nomesSorteio.length == nomesSorteados.length) {
+        nomesSorteio = [];
         exibirTextoNaTela('ul', 'Você precisa escolher novos nomes!');  
     } else if (nomesSorteados.includes(nomeSorteado)) {    
         return sortearAmigo();
