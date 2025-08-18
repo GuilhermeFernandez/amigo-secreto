@@ -19,7 +19,9 @@ exibirMensagemInicial();
 function adicionarAmigo() {
     if (document.querySelector('input').value == '')  {
         alert('Digite um nome válido!');
-    } else {
+    } else if (document.querySelector('input').value == nomesSorteio) {
+        exibirTextoNaTela('ul', `${document.querySelector('input').value} já está na lista!`);
+    }   else {
         let nome = document.querySelector('input').value;
         nomesSorteio.push(nome);
         document.querySelector('input').value = '';
